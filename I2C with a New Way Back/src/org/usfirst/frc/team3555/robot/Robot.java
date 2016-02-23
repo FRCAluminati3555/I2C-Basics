@@ -40,7 +40,7 @@ public class Robot extends SampleRobot {
     	i2cBus.readOnly(data, size);
     	return data;
     }
-    
+      
     private static enum I2C_Request {
     	Request_0(0), Request_1('f');
     	
